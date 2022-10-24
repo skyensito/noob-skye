@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  /* header */
+.logo-box{
+    position: fixed;
+    width: 100%;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto auto auto auto auto auto ;
+    grid-gap: 4px;
+    background: white;
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.logo-box img{
+    width: 100px;
+    height: 13vh;
+    
+}
+
+.logo p>span{
+    color:palevioletred;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.box-1{
+    text-align: right;
+    
+}
+
+.box-2{
+    padding-top: 18px;
+    text-align: left;
+}
+
+.box-3{
+    padding-top: 24px;
+    text-align: left;
+    
+}
+.box-4{
+    padding-top: 24px;
+    text-align: left;
+}
+.box-5{
+    padding-top: 24px;
+    text-align: left;
+}
+.box-6{
+    padding-top: 24px;
+    text-align: left;
+}
+
+.box-7{
+    padding-top: 24px;
+    text-align: center;
+}
+ /* header end */
+
+ /* top-background */
+ .bb-star{
+     width: 100%;
+     height: 68vh;
+     background-image: url(../images/girl\ writing.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+ 
+ .bb1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     background: rgb(5, 96, 133);
+     color: white;
+     height: 20px;
+     width: 40%;
+     font-size: 22px;
+ }
+
+ .bb{
+     padding: 200px;
+ }
+
+ .bb2{
+     color: rgb(97, 63, 129);
+ }
+
+ .bb2>h1{
+     font-size: 70px;
+     font-weight: bolder;
+ }
+
+ .bb2>p{
+     font-size: x-large;
+ }
+
+ .bb3 button{
+     width: 17%;
+     height: 6vh;
+     color:white;
+     background-color: orangered;
+     border-radius: 25px;
+     cursor: pointer;
+ }
+
+ .bb3 :hover{
+     background-color: rgb(27, 192, 221);
+     transition: 0.2;
+ }
+ /* side-flex */
+
+ .side{
+     background-color: #f2f6ff;
+     display: flex;
+     height:70vh ;
+     justify-content: space-between;
+     text-align: center;
+ }
+
+ .side-b {
+     /* padding: 20px; */
+     margin: 20px;
+     /* border: 3px dashed red; */
+ }
+
+
+ .side-b img{
+     height: 100%;
+     width: 100%; 
+     border-radius: 15px;
+ }
+
+ .left{
+     border: 3px dashed red;
+     border-radius: 25px
+ }
+
+ .right{
+     /* padding-right: 200px; */
+     padding: 50px;
+     color: #12265a;
+ }
+
+ .side-b >h1{
+     font-size: 50px;
+     /* background-color: pink; */
+     
+ }
+
+ .side-b >h3{
+    font-size: 50px;
+    /* background-color: ; */
+}
+
+.crazy button{
+    height: 10vh;
+    width: 40%;
+    color:white;
+    background-color: orangered;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 80px;
+    font-size: large;
+    /* border:3px solid blue ; */
+}
+
+.me{
+    border: dashed blueviolet;
+    padding: 5px;
+    border-radius: 40px;
+    height: 7vh;
+    text-align: center;
+    font-size: larger;
+}
+.crazy :hover{
+    background-color: rgb(27, 192, 221);
+    transition: 0.2;
+}
+/* side end */
+.card{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.cards{
+    border-radius: 25px;
+    width: 26%;
+    height: 60vh;
+}
+
+.crd1{
+    background-color: palevioletred;
+}
+
+.crd2{
+    background-color: steelblue ;
+}
+
+.crd3{
+    background-color:orangered ;
+}
+/* end */
+
+/* Another start */
+.choco{
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.chocho{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.chocho>h1{
+    font-size: 44px;
+    /* background-color: plum;; */
+}
+
+.chocho>p{
+    font-size: 20px;
+    /* background-color: plum;; */
+}
+
+.choco-card{
+    display: flex;
+    position: relative;
+    text-align: center;
+    width: 30%;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+
+.crs{
+    text-align: left;
+
+}
+
+.crs-box>h1{
+    font-size: xx-large;
+    font-weight:bolder;
+    color: royalblue;
+}
+
+.crs-box :hover{
+    color: palevioletred;
+    transition: 0.2;
+}
+
+.crs img{
+    width: 80px;
+}
+
+/* blue start */
+.blue{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 3px solid red;
+    height: 30vh;
+}
